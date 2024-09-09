@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 
@@ -88,17 +87,3 @@ function NavBar() {
 }
 
 export default NavBar;
-
-// function NavBar() {
-//   return (
-//     <nav className="navbar  fixed-top navbar-expand-lg">
-//       <ul>
-//         <li className="nav-item">boy</li>
-//         <li className="nav-item">girl</li>
-//         <li className="nav-item">child</li>
-//       </ul>
-//     </nav>
-//   );
-// }
-
-// export default NavBar;
