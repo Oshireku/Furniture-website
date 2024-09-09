@@ -8,13 +8,13 @@ function Contact() {
           rep
         </p>
         <a className="footer-link" href="www.instagram.com">
-          <img src={"../public/images/Contact/instagram.png"} alt="" />
+          <img src={"images/Contact/instagram.png"} alt="" />
         </a>
         <a className="footer-link" href="www.twitter.com">
-          <img src={"../public/images/Contact/twitter-24×24.png"} alt="" />
+          <img src={"images/Contact/twitter-24×24.png"} alt="" />
         </a>
         <a className="footer-link" href="www.whatsapp.com">
-          <img src={"../public/images/Contact/whatsapp.png"} alt="" />
+          <img src={"images/Contact/whatsapp.png"} alt="" />
         </a>
         <p className="copy-right">© Spektre Furnitures.</p>
       </div>

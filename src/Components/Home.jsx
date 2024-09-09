@@ -4,11 +4,7 @@ function Home() {
       <div className="container-fluid">
         <h1 className="section-heading">Shop with us today!</h1>
         <div className="home-row">
-          <img
-            className="home-image"
-            src={"../public/Tiny Office.jpg"}
-            alt=""
-          />
+          <img className="home-image" src={"/Tiny Office.jpg"} alt="" />
           <p className="intro-text">
             {" "}
             Welcome to Spektre furnitures – your ultimate destination for
