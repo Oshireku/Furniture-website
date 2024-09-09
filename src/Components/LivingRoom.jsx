@@ -1,11 +1,9 @@
 import livingRoomItems from "./items";
 import Card from "./Card";
-import NavBar from "./Navbar";
 
 function LivingRoom() {
   return (
     <section id="Living">
-      <NavBar />
       <div className="container-fluid all-sections">
         <h2 className="section-heading">Living Room</h2>
         <div className="row">
