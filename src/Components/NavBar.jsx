@@ -6,7 +6,7 @@ function NavBar() {
     <nav className="navbar  fixed-top navbar-expand-lg">
       <div className="container-fluid">
         <a href="www.google.com" className="navbar-brand">
-          <img className="brand-icon" src="../public/favicon.ico" alt="" />
+          <img className="brand-icon" src="/favicon.ico" alt="" />
         </a>
         <button
           className="navbar-toggler"

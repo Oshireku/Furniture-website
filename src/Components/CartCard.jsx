@@ -1,9 +1,9 @@
 function CartCard() {
   return (
     <div>
-      <img src="" alt="" />
-      <p>description of item</p>
-      <p>price of item</p>
+      <img src={props.imgURL} alt="" />
+      <p>{props.description}</p>
+      <p>{Props.price}</p>
       <button>remove cart item</button>
     </div>
   );
