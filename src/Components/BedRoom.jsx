@@ -10,7 +10,7 @@ function BedRoom() {
           {bedRoomItems.map((items) => {
             return (
               <Card
-                key={bedRoomItems.id}
+                key={items.id}
                 imgURL={items.imgURL}
                 description={items.description}
                 price={items.price}
