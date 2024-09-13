@@ -1,5 +1,5 @@
 import AddShoppingCartOutlinedIcon from "@mui/icons-material/AddShoppingCartOutlined";
-import { useState } from "react";
+
 function Card(props) {
   return (
     <div className="col-lg-3 col-md-4 col-sm-6">
