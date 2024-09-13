@@ -1,14 +1,24 @@
+import { bedRoomItems } from "./items";
 import CartCard from "./CartCard";
 function Cart() {
   return (
     <section id="Cart">
       <div className="container-fluid all-sections">
-        <h2 className="section-heading">Shopping Cart</h2>
+        <h2 className="section-heading">
+          {bedRoomItems.length} items in Shopping Cart
+        </h2>
       </div>
       <ul>
         <li>
-          {cartArray.map(() => {
-            return <CartCard />;
+          {bedRoomItems.map((item) => {
+            return (
+              <CartCard
+                key={item.id}
+                imgURL={item.imgURL}
+                description={item.description}
+                price={item.price}
+              />
+            );
           })}
         </li>
       </ul>

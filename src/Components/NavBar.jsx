@@ -1,5 +1,6 @@
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -38,45 +39,45 @@ function NavBar() {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
               <li className="nav-item">
-                <a href="/" className="nav-link active" aria-current="page">
+                <Link to="/" className="nav-link active" aria-current="page">
                   Home
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a href="Living" className="nav-link">
+                <Link to="Living" className="nav-link">
                   Living Room
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="Dining" className="nav-link">
+                <Link to="Dining" className="nav-link">
                   Dining
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="Kitchen" className="nav-link">
+                <Link to="Kitchen" className="nav-link">
                   Kitchen
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="BedRoom" className="nav-link">
+                <Link to="BedRoom" className="nav-link">
                   Bed Room
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="Office" className="nav-link">
+                <Link to="Office" className="nav-link">
                   Office
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="Account" className="nav-link">
+                <Link to="Account" className="nav-link">
                   <AccountCircleOutlinedIcon />
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="Cart" className="nav-link">
+                <Link to="Cart" className="nav-link">
                   <ShoppingCartOutlinedIcon />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
